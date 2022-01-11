@@ -6,8 +6,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.colors{
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  color: #fff;
+  justify-content: center;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.colors .color{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
